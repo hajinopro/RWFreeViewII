@@ -13,6 +13,7 @@ struct ArticleView: View {
     var body: some View {
         HStack {
             ArticleButtonView(width: 50, height: 50, radius: 10)
+                .unredacted()
             VStack(alignment: .leading) {
                 Text(article.name)
                     .font(.headline)

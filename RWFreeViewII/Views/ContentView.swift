@@ -15,9 +15,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 HeaderView(count: store.articles.count)
-                if store.loading {
-                    ActivityIndicatorView()
-                }
+                    .unredacted()
                 ForEach(store.articles) { article in
                     NavigationLink {
                         ArticleWebView(article: article)
@@ -29,6 +27,7 @@ struct ContentView: View {
             .refreshable {
                 store.fetchContents()
             }
+            .redacted(reason: store.loading ? .placeholder : [])
             .searchable(text: $searchText)
             .onChange(of: searchText, perform: { _ in
                 store.baseParameter["filter[q]"] = searchText

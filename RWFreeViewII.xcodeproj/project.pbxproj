@@ -12,6 +12,7 @@
 		7A5CF0BE280ACD4A00CA07D8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */; };
 		7A5CF0C3280AD1E600CA07D8 /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0C2280AD1E600CA07D8 /* DateFormatterExtensions.swift */; };
 		7A5CF0C5280AD2D900CA07D8 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */; };
+		7A5CF0C9280AD9FA00CA07D8 /* RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0C8280AD9FA00CA07D8 /* RefreshableView.swift */; };
 		7AD9A52C280A6E97009D010E /* RWFreeViewIIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A52B280A6E97009D010E /* RWFreeViewIIApp.swift */; };
 		7AD9A52E280A6E97009D010E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A52D280A6E97009D010E /* ContentView.swift */; };
 		7AD9A530280A6E99009D010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9A52F280A6E99009D010E /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7A5CF0C2280AD1E600CA07D8 /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
 		7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		7A5CF0C8280AD9FA00CA07D8 /* RefreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableView.swift; sourceTree = "<group>"; };
 		7AD9A528280A6E97009D010E /* RWFreeViewII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWFreeViewII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD9A52B280A6E97009D010E /* RWFreeViewIIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWFreeViewIIApp.swift; sourceTree = "<group>"; };
 		7AD9A52D280A6E97009D010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				7A5CF0BB280AC61800CA07D8 /* ArticleButtonView.swift */,
 				7AD9A543280A795C009D010E /* ArticleWebView.swift */,
 				7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */,
+				7A5CF0C8280AD9FA00CA07D8 /* RefreshableView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				7AD9A53C280A6F17009D010E /* Article.swift in Sources */,
 				7AD9A547280A7B2C009D010E /* MyWebView.swift in Sources */,
 				7AD9A542280A7815009D010E /* ArticleView.swift in Sources */,
+				7A5CF0C9280AD9FA00CA07D8 /* RefreshableView.swift in Sources */,
 				7AD9A52E280A6E97009D010E /* ContentView.swift in Sources */,
 				7A5CF0BC280AC61800CA07D8 /* ArticleButtonView.swift in Sources */,
 				7AD9A53A280A6EF3009D010E /* ArticleStore.swift in Sources */,
