@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5CF0BA280AADB100CA07D8 /* URLComponentsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0B9280AADB100CA07D8 /* URLComponentsExtensions.swift */; };
+		7A5CF0BC280AC61800CA07D8 /* ArticleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0BB280AC61800CA07D8 /* ArticleButtonView.swift */; };
+		7A5CF0BE280ACD4A00CA07D8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */; };
+		7A5CF0C3280AD1E600CA07D8 /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0C2280AD1E600CA07D8 /* DateFormatterExtensions.swift */; };
+		7A5CF0C5280AD2D900CA07D8 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */; };
 		7AD9A52C280A6E97009D010E /* RWFreeViewIIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A52B280A6E97009D010E /* RWFreeViewIIApp.swift */; };
 		7AD9A52E280A6E97009D010E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A52D280A6E97009D010E /* ContentView.swift */; };
 		7AD9A530280A6E99009D010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9A52F280A6E99009D010E /* Assets.xcassets */; };
 		7AD9A533280A6E99009D010E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9A532280A6E99009D010E /* Preview Assets.xcassets */; };
+		7AD9A53A280A6EF3009D010E /* ArticleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A539280A6EF3009D010E /* ArticleStore.swift */; };
+		7AD9A53C280A6F17009D010E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A53B280A6F17009D010E /* Article.swift */; };
+		7AD9A53E280A6F94009D010E /* Article.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AD9A53D280A6F94009D010E /* Article.json */; };
+		7AD9A540280A7201009D010E /* ArticleStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A53F280A7201009D010E /* ArticleStoreDevData.swift */; };
+		7AD9A542280A7815009D010E /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A541280A7815009D010E /* ArticleView.swift */; };
+		7AD9A544280A795C009D010E /* ArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A543280A795C009D010E /* ArticleWebView.swift */; };
+		7AD9A547280A7B2C009D010E /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A546280A7B2C009D010E /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A5CF0B9280AADB100CA07D8 /* URLComponentsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsExtensions.swift; sourceTree = "<group>"; };
+		7A5CF0BB280AC61800CA07D8 /* ArticleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleButtonView.swift; sourceTree = "<group>"; };
+		7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7A5CF0C2280AD1E600CA07D8 /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
+		7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		7AD9A528280A6E97009D010E /* RWFreeViewII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWFreeViewII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD9A52B280A6E97009D010E /* RWFreeViewIIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWFreeViewIIApp.swift; sourceTree = "<group>"; };
 		7AD9A52D280A6E97009D010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AD9A52F280A6E99009D010E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AD9A532280A6E99009D010E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AD9A539280A6EF3009D010E /* ArticleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleStore.swift; sourceTree = "<group>"; };
+		7AD9A53B280A6F17009D010E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		7AD9A53D280A6F94009D010E /* Article.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Article.json; sourceTree = "<group>"; };
+		7AD9A53F280A7201009D010E /* ArticleStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleStoreDevData.swift; sourceTree = "<group>"; };
+		7AD9A541280A7815009D010E /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		7AD9A543280A795C009D010E /* ArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebView.swift; sourceTree = "<group>"; };
+		7AD9A545280A7AF1009D010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7AD9A546280A7B2C009D010E /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +57,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A5CF0BF280AD19D00CA07D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9A52D280A6E97009D010E /* ContentView.swift */,
+				7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */,
+				7AD9A541280A7815009D010E /* ArticleView.swift */,
+				7A5CF0BB280AC61800CA07D8 /* ArticleButtonView.swift */,
+				7AD9A543280A795C009D010E /* ArticleWebView.swift */,
+				7A5CF0C4280AD2D900CA07D8 /* ActivityIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A5CF0C0280AD1A900CA07D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9A539280A6EF3009D010E /* ArticleStore.swift */,
+				7AD9A53B280A6F17009D010E /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A5CF0C1280AD1BD00CA07D8 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9A546280A7B2C009D010E /* MyWebView.swift */,
+				7A5CF0B9280AADB100CA07D8 /* URLComponentsExtensions.swift */,
+				7A5CF0C2280AD1E600CA07D8 /* DateFormatterExtensions.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
 		7AD9A51F280A6E96009D010E = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +108,11 @@
 		7AD9A52A280A6E97009D010E /* RWFreeViewII */ = {
 			isa = PBXGroup;
 			children = (
+				7AD9A545280A7AF1009D010E /* Info.plist */,
 				7AD9A52B280A6E97009D010E /* RWFreeViewIIApp.swift */,
-				7AD9A52D280A6E97009D010E /* ContentView.swift */,
+				7A5CF0BF280AD19D00CA07D8 /* Views */,
+				7A5CF0C0280AD1A900CA07D8 /* Models */,
+				7A5CF0C1280AD1BD00CA07D8 /* Supports */,
 				7AD9A52F280A6E99009D010E /* Assets.xcassets */,
 				7AD9A531280A6E99009D010E /* Preview Content */,
 			);
@@ -63,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				7AD9A532280A6E99009D010E /* Preview Assets.xcassets */,
+				7AD9A53D280A6F94009D010E /* Article.json */,
+				7AD9A53F280A7201009D010E /* ArticleStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,6 +189,7 @@
 			files = (
 				7AD9A533280A6E99009D010E /* Preview Assets.xcassets in Resources */,
 				7AD9A530280A6E99009D010E /* Assets.xcassets in Resources */,
+				7AD9A53E280A6F94009D010E /* Article.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5CF0BA280AADB100CA07D8 /* URLComponentsExtensions.swift in Sources */,
+				7AD9A53C280A6F17009D010E /* Article.swift in Sources */,
+				7AD9A547280A7B2C009D010E /* MyWebView.swift in Sources */,
+				7AD9A542280A7815009D010E /* ArticleView.swift in Sources */,
 				7AD9A52E280A6E97009D010E /* ContentView.swift in Sources */,
+				7A5CF0BC280AC61800CA07D8 /* ArticleButtonView.swift in Sources */,
+				7AD9A53A280A6EF3009D010E /* ArticleStore.swift in Sources */,
+				7A5CF0BE280ACD4A00CA07D8 /* HeaderView.swift in Sources */,
+				7AD9A540280A7201009D010E /* ArticleStoreDevData.swift in Sources */,
+				7AD9A544280A795C009D010E /* ArticleWebView.swift in Sources */,
+				7A5CF0C3280AD1E600CA07D8 /* DateFormatterExtensions.swift in Sources */,
+				7A5CF0C5280AD2D900CA07D8 /* ActivityIndicatorView.swift in Sources */,
 				7AD9A52C280A6E97009D010E /* RWFreeViewIIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +344,9 @@
 				DEVELOPMENT_TEAM = 6X47T39326;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RWFreeViewII/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +373,9 @@
 				DEVELOPMENT_TEAM = 6X47T39326;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RWFreeViewII/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

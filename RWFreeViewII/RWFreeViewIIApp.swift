@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RWFreeViewIIApp: App {
+    @StateObject private var store = ArticleStore()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(store)
         }
     }
 }
