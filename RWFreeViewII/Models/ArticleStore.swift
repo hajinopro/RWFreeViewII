@@ -38,11 +38,13 @@ final class ArticleStore: ObservableObject, Decodable {
         guard let url = urlComponents.url else { return }
         print(url)
         
-        loading = true
+        //loading = true
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let data = data, let response = response as? HTTPURLResponse {
                 defer {
-                    self.loading = false
+                    DispatchQueue.main.async {
+                        self.loading = false
+                    }
                 }
                 print(response.statusCode)
                 if let decodedResponse = try? JSONDecoder().decode(  // 1

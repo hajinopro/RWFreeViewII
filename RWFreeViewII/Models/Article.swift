@@ -15,6 +15,7 @@ struct Article: Decodable, Identifiable {
     let description: String
     let released: String
     let difficulty: String?
+    let urlComponents: URLComponents?
     
     enum DataKeys: CodingKey {
         case id, attributes
@@ -39,5 +40,6 @@ extension Article {
         let releaseDate = DateFormatter.iso8601.date(from: releasedAt)
         released = DateFormatter.articleDateFormatter.string(from: releaseDate!)
         difficulty = try attr.decode(String?.self, forKey: .difficulty)
+        urlComponents = URLComponents(string: name) ?? nil
     }
 }
