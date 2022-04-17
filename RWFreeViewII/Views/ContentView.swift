@@ -14,14 +14,20 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                HeaderView(count: store.articles.count)
-                    .unredacted()
-                ForEach(store.articles) { article in
-                    NavigationLink {
-                        ArticleWebView(article: article)
-                    } label: {
-                        ArticleView(article: article)
+                Section {
+                    ForEach(store.articles) { article in
+                        NavigationLink {
+                            ArticleWebView(article: article)
+                        } label: {
+                            ArticleView(article: article)
+                        }
                     }
+                } header: {
+                    HeaderView(count: store.articles.count)
+                        .unredacted()
+                } footer: {
+                    FooterView()
+                        .unredacted()
                 }
             }
             .refreshable {

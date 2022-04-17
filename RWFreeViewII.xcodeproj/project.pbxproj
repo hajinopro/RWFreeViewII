@@ -24,6 +24,7 @@
 		7AD9A542280A7815009D010E /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A541280A7815009D010E /* ArticleView.swift */; };
 		7AD9A544280A795C009D010E /* ArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A543280A795C009D010E /* ArticleWebView.swift */; };
 		7AD9A547280A7B2C009D010E /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD9A546280A7B2C009D010E /* MyWebView.swift */; };
+		7AE1B5BE280BC73F004BA8B8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1B5BD280BC73F004BA8B8 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		7AD9A543280A795C009D010E /* ArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebView.swift; sourceTree = "<group>"; };
 		7AD9A545280A7AF1009D010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7AD9A546280A7B2C009D010E /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		7AE1B5BD280BC73F004BA8B8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				7AD9A52D280A6E97009D010E /* ContentView.swift */,
 				7A5CF0BD280ACD4A00CA07D8 /* HeaderView.swift */,
+				7AE1B5BD280BC73F004BA8B8 /* FooterView.swift */,
 				7AD9A541280A7815009D010E /* ArticleView.swift */,
 				7A5CF0BB280AC61800CA07D8 /* ArticleButtonView.swift */,
 				7AD9A543280A795C009D010E /* ArticleWebView.swift */,
@@ -206,6 +209,7 @@
 				7A5CF0BA280AADB100CA07D8 /* URLComponentsExtensions.swift in Sources */,
 				7AD9A53C280A6F17009D010E /* Article.swift in Sources */,
 				7AD9A547280A7B2C009D010E /* MyWebView.swift in Sources */,
+				7AE1B5BE280BC73F004BA8B8 /* FooterView.swift in Sources */,
 				7AD9A542280A7815009D010E /* ArticleView.swift in Sources */,
 				7A5CF0C9280AD9FA00CA07D8 /* RefreshableView.swift in Sources */,
 				7AD9A52E280A6E97009D010E /* ContentView.swift in Sources */,

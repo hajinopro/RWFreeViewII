@@ -33,12 +33,19 @@ struct HeaderView: View {
             }
             .tint(Color(UIColor.systemGray))
             Spacer()
+            Button {
+                store.fetchContents(store.links?.next ?? "")
+            } label: {
+                Image(systemName: "arrow.forward.circle.fill")
+            }
+            .tint(Color(UIColor.systemGray))
+            Spacer()
             Picker("", selection: $sortOn) {
                 Text("New").tag("new")
                 Text("Popular").tag("popular")
             }
             .pickerStyle(.segmented)
-            .frame(maxWidth: 130)
+            .frame(maxWidth: 120)
             .onChange(of: sortOn) { newValue in
                 store.baseParameter["sort"] = sortOn == "new" ? "-released_at" : "-popularity"
                 store.fetchContents()
