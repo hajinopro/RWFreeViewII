@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView {
             ZStack {
                 List {
-                    HeaderView(count: store.articles.count)
+                    HeaderView(count: store.articles.count, totalCount: store.meta?.totalResultCount ?? 0)
                         .unredacted()
                     ForEach(store.articles) { article in
                         NavigationLink {

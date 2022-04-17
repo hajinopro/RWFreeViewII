@@ -12,6 +12,7 @@ final class ArticleStore: ObservableObject, Decodable {
     @Published var articlesDev: [Article] = []
     @Published var loading = false
     @Published var links: Links?
+    @Published var meta: Meta?
     
     init() {
         fetchContents()
@@ -54,6 +55,7 @@ final class ArticleStore: ObservableObject, Decodable {
                     DispatchQueue.main.async {
                         self.articles = decodedResponse.articles
                         self.links = decodedResponse.links
+                        self.meta = decodedResponse.meta
                     }
                     return
                 }
@@ -79,6 +81,7 @@ final class ArticleStore: ObservableObject, Decodable {
                     DispatchQueue.main.async {
                         self.articles = decodedResponse.articles
                         self.links = decodedResponse.links
+                        self.meta = decodedResponse.meta
                     }
                     return
                 }
@@ -91,12 +94,14 @@ final class ArticleStore: ObservableObject, Decodable {
     enum CodingKeys: String, CodingKey {
         case articles = "data"
         case links
+        case meta
     }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         articles = try container.decode([Article].self, forKey: .articles)
         links = try container.decode(Links.self, forKey: .links)
+        meta = try container.decode(Meta.self, forKey: .meta)
     }
 }
 
@@ -105,4 +110,17 @@ struct Links: Decodable {
     let prev: String?
     let next: String?
     let last: String
+}
+
+struct Meta: Decodable {
+    var totalResultCount: Int
+    
+    enum MetaKeys: String, CodingKey {
+        case totalResultCount = "total_result_count"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: MetaKeys.self)
+        totalResultCount = try container.decode(Int.self, forKey: .totalResultCount)
+    }
 }

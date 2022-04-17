@@ -9,12 +9,13 @@ import SwiftUI
 
 struct HeaderView: View {
     let count: Int
+    var totalCount: Int
     @State private var sortOn = "none"
     @EnvironmentObject var store: ArticleStore
     
     var body: some View {
         HStack {
-            Text("\(count) Article(s)")
+            Text("\(count) / \(totalCount) Article(s)")
                 .foregroundColor(Color(UIColor.systemGray))
             Menu("\(Image(systemName: "filemenu.and.cursorarrow"))") {
                 Button("5 results/page") {
@@ -49,7 +50,7 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(count: 10)
+        HeaderView(count: 10, totalCount: 20)
             .environmentObject(ArticleStore())
             .previewLayout(.sizeThatFits)
     }
