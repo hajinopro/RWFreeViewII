@@ -13,8 +13,10 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                Section {
+            ZStack {
+                List {
+                    HeaderView(count: store.articles.count)
+                        .unredacted()
                     ForEach(store.articles) { article in
                         NavigationLink {
                             ArticleWebView(article: article)
@@ -22,13 +24,13 @@ struct ContentView: View {
                             ArticleView(article: article)
                         }
                     }
-                } header: {
-                    HeaderView(count: store.articles.count)
-                        .unredacted()
-                } footer: {
+                }
+                VStack {
+                    Spacer()
                     FooterView()
                         .unredacted()
                 }
+                .padding(.bottom)
             }
             .refreshable {
                 store.fetchContents()

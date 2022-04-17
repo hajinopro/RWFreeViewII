@@ -27,7 +27,11 @@ struct FooterView: View {
             }
             Spacer()
         }
+        .frame(maxWidth: .infinity)
+        .padding()
+        .background(Color("gradient-light").opacity(0.8))
         .font(.title)
+        .tint(.white)
     }
 }
 

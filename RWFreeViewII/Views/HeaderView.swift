@@ -33,13 +33,6 @@ struct HeaderView: View {
             }
             .tint(Color(UIColor.systemGray))
             Spacer()
-            Button {
-                store.fetchContents(store.links?.next ?? "")
-            } label: {
-                Image(systemName: "arrow.forward.circle.fill")
-            }
-            .tint(Color(UIColor.systemGray))
-            Spacer()
             Picker("", selection: $sortOn) {
                 Text("New").tag("new")
                 Text("Popular").tag("popular")
